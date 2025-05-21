@@ -46,8 +46,8 @@ public class FreeRangeTest {
     public void validateCheckoutPlans(){
         List<String> lista  = registroPage.returnPlanDropdownValues();
         List<String> listaEsperada = Arrays.asList(
-        "Academia: $16.99 / mes \u2022 13 productos",
-        "Academia: $176 / a\u00F1o \u2022 13 productos",
+        "Academia: $16.99 / mes \u2022 15 productos",
+        "Academia: $176 / a\u00F1o \u2022 15 productos",
         "Free: Gratis \u2022 3 productos");
 
         Assert.assertEquals(listaEsperada, lista);

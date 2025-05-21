@@ -45,5 +45,5 @@ tasks.named('test') {
     // para poder correr el testRunner con JUnit
     systemProperty "cucumber.options", System.getProperty("cucumber.options")
     //para correr la tarea desde la consola con el parametro (tag) que queremos ejecutar
-     systemProperty "cucumber.filter.tags", System.getProperty("cucumber.filter.tags")
+     systemProperty "cucumber.filter.tags", System.getProperty("cucumber-filter-tags")
 }
