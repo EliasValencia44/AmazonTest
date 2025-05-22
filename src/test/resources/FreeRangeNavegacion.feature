@@ -6,7 +6,8 @@ Feature: Navigation bar
 
 Background: I am on the Free Range Testers web without loggin in.
 Given I navigate to www.freerangetesters.com
- 
+
+@Subpages
 Scenario Outline: I can access the subpages through the navigation bar 
   When I go to <section> using navigation bar
   Examples: 
